@@ -16,7 +16,6 @@ TULAN is a Django-based web application for a corporation in the Eve Online univ
 ## Technical Details
 
 * The application is built using Django 4.2.12
-* The database is SQLite
 * The application uses Bootstrap 5.0.2 for styling and layout
 * The application uses Django's built-in authentication and authorization system
 
@@ -25,15 +24,14 @@ TULAN is a Django-based web application for a corporation in the Eve Online univ
 * `TULAN/`: The root directory of the project
 * `TULAN/App/`: The directory containing the application's code
 * `TULAN/App/templates/`: The directory containing the application's templates
-* `TULAN/App/static/`: The directory containing the application's static files
+* `TULAN/App/resources/`: The directory containing the application's resources
 * `TULAN/TULAN/`: The directory containing the project's settings and configuration files
 
 ## Installation and Setup
 
 1. Clone the repository using `git clone`
 2. Install the required dependencies using `pip install -r requirements.txt`
-3. Create a new SQLite database using `python manage.py migrate`
-4. Run the application using `python manage.py runserver`
+3. Run the application using `python manage.py runserver`
 
 ## Contributing
 
