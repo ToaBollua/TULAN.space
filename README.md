@@ -41,7 +41,7 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 
 ## License
 
-The TULAN repository is licensed under the CC BY-NC-SA 4.0 license. See the LICENSE file for more information.
+The TULAN repository is licensed under the CC BY-NC-SA 4.0 license.
 
 ## Authors
 
