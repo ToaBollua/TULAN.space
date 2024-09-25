@@ -1,0 +1,167 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulandia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <img src="{% static  'img/tulan-logo.png' %}" alt="Logo" width="30" height="24">
+                <a class="navbar-brand" href="https://evewho.com/corporation/98616696" target="blank">Tulandia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: orange" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: orange" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: orange" href="#">Trade Hubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: orange" href="#">Game Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: orange" href="#">Frequent Systems</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-section" style="background-image: url('{% static 'img/space-background.jpg' %}');">
+            <div class="container py-5">
+                <h1>Welcome to Tulandia</h1>
+                <p>We are a small industrialist-focused corporation trying to thrive in the chaos of New Eden</p>
+                <a href="#" class="btn btn-danger">Learn More</a>
+            </div>
+        </div>
+
+        <div class="container my-5 bg-dark">
+            <h2>About Tulandia</h2>
+            <p>Tulandia is a Soviet-inspired corporation in the world of Eve Online, dedicated to the principles of communism and collective ownership of resources.</p>
+            <p>Tulandia was founded in the year XXXX by a group of like-minded capsuleers who believed in the power of collective action and the fair distribution of resources.</p>
+            <p>Our corporation is structured in a hierarchical manner, with a central leadership committee overseeing the operations and decision-making processes. All members are expected to contribute to the collective effort and share in the rewards.</p>
+            <!-- Add more content about Tulandia here -->
+        </div>
+        
+        <div class="container my-5 bg-dark">
+            <h2>Key Members of Tulandia</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="{% static 'img/Notu-portrait.jpg' %}" class="card-img-top" alt="Notu Satsu">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Comrade Notu</h5>
+                            <p class="card-text">Co-Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="{% static 'img/Stevenson-portrait.jpg' %}" class="card-img-top" alt="Stevenson Shayiskhun">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Comrade Stevenson</h5>
+                            <p class="card-text">Co-Founder & Chief Director</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="{% static 'img/Kitty-portrait.jpg' %}" class="card-img-top" alt="Kitty Satsu">
+                        <div class="card-body bg-dark">
+                            <h5 class="card-title">Comrade Kitty</h5>
+                            <p class="card-text">Head holder & Chief reporteer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5 bg-dark">
+            <h2>Lore of Tulandia's Key Members</h2>
+            <hr class="hr-gradient">
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-dark mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{% static 'img/young-Notu.jpg' %}" class="img-fluid rounded-start" alt="Notu Satsu">
+                                <div class="card-img-overlay d-flex justify-content-end align-items-end">
+                                    <p class="card-text bg-dark p-2 rounded"> <- Young Notu before becoming a capsuleer in the Amarr academy</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Comrade Notu</h5>
+                                    <p class="card-text">Born and raised in the Amarr Empire, Notu Satsu always viewed capsuleers with admiration but also a certain disdain, due to the fact that the conversion process involves losing one's life to achieve immortality. After graduating with honors from the Amarr military, at the age of 40, he decided to undergo the process to become a capsuleer. Now, with over 5 years of experience as a capsuleer, he does not regret having achieved immortality, as it has allowed him to accomplish things he could never have dreamed of before, meeting impressive people and exploring the spaces known as J-space, accessible only through wormholes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <hr class="hr-gradient">
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-dark mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{% static 'img/young-Kitty.jpg' %}" class="img-fluid rounded-start" alt="Kitty Satsu">
+                                <div class="card-img-overlay d-flex justify-content-end align-items-end align-items-end">
+                                    <p class="card-text bg-dark p-2 rounded"> <- Young Kitty stranded as a simple job-taker over Caldari space.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Comrade Kitty</h5>
+                                    <p class="card-text">A distant relative of Notu, Kitty Satsu, around 26 years old, became a capsuleer as soon as she had the opportunity. She met Notu on one of his travels and joined Tulandia to explore and document her discoveries. She was present during the Turnur star explosion, documenting all her travels on the official Tulandia Twitter account, the Tulandia's Meme Office, with her sense of humor, trying to recruit new members.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <hr class="hr-gradient">
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-dark mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{% static 'img/young-Stevenson.jpg' %}" class="img-fluid rounded-start" alt="Stevenson Shayiskhun">
+                                <div class="card-img-overlay d-flex justify-content-end align-items-end">
+                                    <p class="card-text bg-dark p-2 rounded"> <- Young Stevenson as a mechanic before becoming a capsuleer.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Comrade Stevenson</h5>
+                                    <p class="card-text">Not much is known about Stevenson Shayiskhun, except that he was with Notu in the process of conversion to a capsuleer, co-founding the corporation with him. He has demonstrated great strategic and economic prowess, being the cold mind of the corporation, calculating and effective in what he does. He never needed to know much about him because he always demonstrated his feats with actions rather than words.</p>
+                                </div>
+                            </div>
+
+        <footer class="bg-dark text-white py-3">
+            <div class="container">
+                <p class="mb-0">Created by Nicolás Anrique</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
