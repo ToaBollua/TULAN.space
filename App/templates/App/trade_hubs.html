@@ -1,0 +1,37 @@
+{% extends 'App/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container my-5 bg-dark">
+  <h1 class="text-white">Trade Hubs</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card bg-dark">
+        <img src="{% static 'img/Dodixie.jpg' %}" class="card-img-top" alt="Dodixie">
+        <div class="card-body">
+          <h5 class="card-title text-white">Dodixie</h5>
+          <p class="card-text text-white">Very convenient trade hub, but not the as big as Jita.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-dark">
+        <img src="{% static 'img/Amarr.jpg' %}" class="card-img-top" alt="Amarr">
+        <div class="card-body">
+          <h5 class="card-title text-white">Amarr</h5>
+          <p class="card-text text-white">The second greatest trade hub in New Eden.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-dark">
+        <img src="{% static 'img/Jita.jpg' %}" class="card-img-top" alt="Jita">
+        <div class="card-body">
+          <h5 class="card-title text-white">Jita</h5>
+          <p class="card-text text-white">The busiest trade hub in New Eden.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
