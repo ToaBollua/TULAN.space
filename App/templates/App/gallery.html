@@ -1,0 +1,50 @@
+{% extends 'App/base.html' %}
+{% load static %}
+
+{% block content %}
+
+        <div class="hero-section" style="background-image: url('{% static 'img/space-background.jpg' %}');">
+            <div class="container py-5">
+                <h1>Tulandia Gallery</h1>
+                <p>Explore the wonders of Tulandia through our gallery</p>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <h2>Gallery</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card bg-dark">
+                        <img src="{% static 'img/fleet-image-1.jpg' %}" class="card-img-top" alt="Fleet Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Fleet Maneuvers</h5>
+                            <p class="card-text">Our comrades in action during a fleet operation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark">
+                        <img src="{% static 'img/fleet-image-2.jpg' %}" class="card-img-top" alt="Fleet Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Fleet Formation</h5>
+                            <p class="card-text">Our comrades in formation during a fleet operation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark">
+                        <img src="{% static 'img/fleet-image-3.jpg' %}" class="card-img-top" alt="Fleet Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Fleet Engagement</h5>
+                            <p class="card-text">Our comrades engaging the enemy during a fleet operation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
